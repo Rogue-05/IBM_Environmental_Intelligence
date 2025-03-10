@@ -1,14 +1,22 @@
-This is a project show casing the use of IBM's Environmental Intelligence APIs.
+# Historical Rainfall Analysis for the Seattle Area
 
-The following was the prompt used:
-Determine and plot historical rainfall data for Seattle area during April 1st 2023 to 30th September 2023
+This project demonstrates how to use IBM's Environmental Intelligence APIs to determine and plot historical rainfall data for the Seattle area. The analysis covers the period from **April 1st, 2023 to September 30th, 2023**.
 
-How do you determine rain? Below is the criteria:
-  1. temperature should be greater than zero celcius
-  2.precipitation should be greater than zero
-  3.relative humidity should be greater than or equal to 70
-  4.dew point should be greater than zero
-  5.If precipitation is less than 2.5, it'd be light rain, else, moderate to heavy rain
+## Project Overview
 
+The primary goal of this project is to showcase how to:
+- Retrieve historical weather data using IBM's Environmental Intelligence APIs.
+- Apply custom criteria to determine if rainfall occurred on a specific day.
+- Classify the intensity of the rain (light vs. moderate/heavy) based on precipitation levels.
+- Plot the rainfall data over the defined time period.
 
-*MAKE SURE TO GIVE CORRECT API KEY IN THE .ini FILE
+### Rain Determination Criteria
+
+For each data point, the following criteria are used to determine the presence of rain:
+1. **Temperature** should be greater than 0°C.
+2. **Precipitation** should be greater than 0.
+3. **Relative Humidity** should be greater than or equal to 70%.
+4. **Dew Point** should be greater than 0°C.
+5. **Rain Intensity Classification:**
+   - If precipitation is less than 2.5, it is classified as **light rain**.
+   - If precipitation is 2.5 or greater, it is classified as **moderate to heavy rain**.
