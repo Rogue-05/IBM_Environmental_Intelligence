@@ -9,3 +9,6 @@ How do you determine rain? Below is the criteria:
   3.relative humidity should be greater than or equal to 70
   4.dew point should be greater than zero
   5.If precipitation is less than 2.5, it'd be light rain, else, moderate to heavy rain
+
+
+*MAKE SURE TO GIVE CORRECT API KEY IN THE .ini FILE
